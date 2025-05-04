@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "thrain:anchor_hook",
+			"identifier": "thrain:thrown_anchor_hook",
 			"menu_category": {
 				"category": "equipment",
 				"group": "itemGroup.name.anchor_hook"
@@ -15,7 +15,11 @@
 			"minecraft:durability": {
 				"max_durability": 251
 			},
-			"minecraft:icon": "anchor_hook",
+			"minecraft:icon": {
+				"textures": {
+					"default": "anchor_hook"
+				}
+			},
 			"minecraft:damage": 8,
 			"minecraft:repairable": {
 				"repair_items": [
@@ -33,24 +37,22 @@
 					}
 				]
 			},
-			"minecraft:digger": {
-				"use_efficiency": true,
-				"destroy_speeds": [
-					{
-						"block": "minecraft:web",
-						"speed": 15
-					},
-					{
-						"block": "minecraft:bamboo",
-						"speed": 60
-					}
-				]
+			"minecraft:projectile": {
+				"minimum_critical_power": 1.25,
+				"projectile_entity": ""
 			},
 			"minecraft:shooter": {
-				"launch_power_scale": 3
-			},
-			"minecraft:cooldown": {
-				"duration": 1
+				"ammunition": [
+					{
+						"item": "custom_projectile",
+						"use_offhand": true,
+						"search_inventory": true,
+						"use_in_creative": true
+					}
+				],
+				"max_draw_duration": 1,
+				"scale_power_by_draw_duration": true,
+				"charge_on_draw": false
 			},
 			"minecraft:tags": {
 				"tags": [
