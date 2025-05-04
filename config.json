@@ -1,0 +1,47 @@
+{
+	"type": "minecraftBedrock",
+	"name": "custom-weapon",
+	"namespace": "thrain",
+	"authors": [
+		"thrain."
+	],
+	"targetVersion": "1.21.70",
+	"description": "",
+	"experimentalGameplay": {
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"experimentalCreatorCameraFeatures": true,
+		"enableGameTestFramework": true,
+		"dataDrivenJigsawStructures": true,
+		"customComponentsV2": true,
+		"renderDragonFeatures": true,
+		"educationEdition": false
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "custom-weapon"
+				}
+			]
+		]
+	}
+}

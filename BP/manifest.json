@@ -1,0 +1,75 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"thrain."
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.45"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "custom-weapon BP",
+		"description": "",
+		"min_engine_version": [
+			1,
+			21,
+			70
+		],
+		"uuid": "8a8435c6-c677-4ff0-9cfd-07e5149865e0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3d05add0-a396-4d02-9c5b-2ddc6414f70e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "29466f0d-a563-4ccf-a04d-1f449d43abcf",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		},
+		{
+			"uuid": "7cb9007b-efb9-4baa-a4e7-1a1419607b66",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

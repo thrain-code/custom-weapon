@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"thrain."
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.45"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "custom-weapon RP",
+		"description": "",
+		"min_engine_version": [
+			1,
+			21,
+			70
+		],
+		"uuid": "7cb9007b-efb9-4baa-a4e7-1a1419607b66",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "55ab4979-09b5-46b8-8e42-eff5d4cb5f7c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8a8435c6-c677-4ff0-9cfd-07e5149865e0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
