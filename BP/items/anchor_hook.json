@@ -2,49 +2,23 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "thrain:thrown_anchor_hook",
+			"identifier": "custom:anchor_hook",
 			"menu_category": {
-				"category": "equipment",
-				"group": "itemGroup.name.anchor_hook"
+				"category": "items"
 			}
 		},
 		"components": {
-			"minecraft:max_stack_size": 1,
-			"minecraft:hand_equipped": true,
-			"minecraft:can_destroy_in_creative": false,
-			"minecraft:durability": {
-				"max_durability": 251
-			},
-			"minecraft:icon": {
-				"textures": {
-					"default": "anchor_hook"
-				}
-			},
-			"minecraft:damage": 8,
-			"minecraft:repairable": {
-				"repair_items": [
-					{
-						"items": [
-							"minecraft:iron_ingot"
-						],
-						"repair_amount": "query.max_durability * 0.25"
-					},
-					{
-						"items": [
-							"thrain:thrown_anchor_hook"
-						],
-						"repair_amount": "context.other->query.remaining_durability + 0.12 * context.other->query.max_durability"
-					}
-				]
-			},
+			"minecraft:icon": "custom:anchor_hook",
 			"minecraft:projectile": {
 				"minimum_critical_power": 1.25,
-				"projectile_entity": ""
+				"projectile_entity": "geometry.anchor_hook"
 			},
+			"minecraft:hand_equipped": true,
+
 			"minecraft:shooter": {
 				"ammunition": [
 					{
-						"item": "custom_projectile",
+						"item": "custom:anchor_hook",
 						"use_offhand": true,
 						"search_inventory": true,
 						"use_in_creative": true
@@ -53,14 +27,7 @@
 				"max_draw_duration": 1,
 				"scale_power_by_draw_duration": true,
 				"charge_on_draw": false
-			},
-			"minecraft:tags": {
-				"tags": [
-					"minecraft:is_anchor_hook",
-					"minecraft:is_tool"
-				]
-			},
-			"minecraft:allow_off_hand": true
+			}
 		}
 	}
 }
