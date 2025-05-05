@@ -4,6 +4,9 @@
 	"texture_data": {
 		"custom:anchor_hook": {
 			"textures": "textures/items/anchor_hook"
+		},
+		"thrown:anchor_hook": {
+			"textures": "textures/entity/anchor_hook"
 		}
 	}
 }

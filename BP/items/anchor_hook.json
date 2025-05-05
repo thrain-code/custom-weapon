@@ -4,29 +4,18 @@
 		"description": {
 			"identifier": "custom:anchor_hook",
 			"menu_category": {
-				"category": "items"
+				"category": "equipment"
 			}
 		},
 		"components": {
+			"minecraft:max_stack_size": 16,
 			"minecraft:icon": "custom:anchor_hook",
-			"minecraft:projectile": {
-				"minimum_critical_power": 1.25,
-				"projectile_entity": "geometry.anchor_hook"
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 2
 			},
-			"minecraft:hand_equipped": true,
-
-			"minecraft:shooter": {
-				"ammunition": [
-					{
-						"item": "custom:anchor_hook",
-						"use_offhand": true,
-						"search_inventory": true,
-						"use_in_creative": true
-					}
-				],
-				"max_draw_duration": 1,
-				"scale_power_by_draw_duration": true,
-				"charge_on_draw": false
+			"minecraft:projectile": {
+				"projectile_entity": "custom:thrown_anchor_hook"
 			}
 		}
 	}

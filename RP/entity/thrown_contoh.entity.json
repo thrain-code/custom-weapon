@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "thrain:thrown_contoh",
+			"materials": {
+				"default": "trident"
+			},
+			"textures": {
+				"default": "thrown:anchor_hook"
+			},
+			"geometry": {
+				"default": "geometry.anchor_hook"
+			},
+			"render_controllers": [
+				"controller.render.anchor_hook"
+			],
+			"animations": {
+				"flying": "animation.actor.billboard"
+			},
+			"scripts": {
+				"animate": [
+					"flying"
+				]
+			}
+		}
+	}
+}
