@@ -31,7 +31,7 @@
 					},
 					{
 						"items": [
-							"thrain:anchor_hook"
+							"thrain:thrown_anchor_hook"
 						],
 						"repair_amount": "context.other->query.remaining_durability + 0.12 * context.other->query.max_durability"
 					}
