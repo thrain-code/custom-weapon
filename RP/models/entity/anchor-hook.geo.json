@@ -13,7 +13,9 @@
 			"bones": [
 				{
 					"name": "anchor",
-					"pivot": [0, 29, 0],
+					"pivot": [0, 24, 0],
+					"rotation": [75, 175, -12.5],
+					"binding": "q.item_slot_to_bone_name(context.item_slot)",
 					"cubes": [
 						{"origin": [-1, 1, -1], "size": [2, 37, 2], "uv": [36, 22]}
 					]

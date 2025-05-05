@@ -1,22 +1,38 @@
 {
-	"format_version": "1.20.80",
-	"minecraft:item": {
-		"description": {
-			"identifier": "custom:anchor_hook",
-			"menu_category": {
-				"category": "equipment"
-			}
-		},
-		"components": {
-			"minecraft:max_stack_size": 16,
-			"minecraft:icon": "custom:anchor_hook",
-			"minecraft:throwable": {
-				"do_swing_animation": true,
-				"launch_power_scale": 2
-			},
-			"minecraft:projectile": {
-				"projectile_entity": "custom:thrown_anchor_hook"
-			}
-		}
-	}
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "items:anchor_hook",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "textures": {
+          "default": "custom:anchor_hook"
+        }
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.weapon.mainhand"
+      },
+      "minecraft:damage": {
+        "value": 7
+      },
+      "minecraft:throwable": {
+        "do_swing_animation": false,
+        "min_draw_duration": 0,
+        "max_draw_duration": 1,
+        "launch_power_scale": 1,
+        "max_launch_power": 2,
+        "scale_power_by_draw_duration": false
+      },
+      "minecraft:projectile": {
+        "minimum_critical_power": 1.25,
+        "projectile_entity": "geometry.geometry.anchor_hook"
+      }
+    }
+  }
 }
