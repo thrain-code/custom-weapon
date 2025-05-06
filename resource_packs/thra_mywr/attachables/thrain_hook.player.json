@@ -24,7 +24,7 @@
       "scripts": {
         "animate": [
           {
-            "hold_first_person": "context.is_first_person == 1.0"
+            "hold_first_person": "context.is_first_person == 2.0"
           },
           {
             "hold_third_person": "context.is_first_person == 0.0"
