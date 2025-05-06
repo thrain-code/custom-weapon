@@ -29,7 +29,7 @@
     "demo:my_sword2": {
       "textures": "textures/items/my_sword2"
     },
-    "texture:anchor_hook_ico": {
+    "demo:anchor_hook": {
       "textures": "textures/items/anchor_hook_ico"
     }
   }

@@ -2,14 +2,14 @@
   "format_version": "1.21.70",
   "minecraft:item": {
     "description": {
-      "identifier": "items:anchor_hook",
+      "identifier": "demo:anchor_hook",
       "menu_category": {
         "category": "items"
       }
     },
     "components": {
-      "minecraft:max_stack_size": 16,
-      "minecraft:icon": "texture:anchor_hook_ico",
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "demo:anchor_hook",
       "minecraft:wearable": {
         "slot": "slot.weapon.offhand"
       }

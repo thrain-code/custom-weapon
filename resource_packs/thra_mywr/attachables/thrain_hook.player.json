@@ -2,9 +2,9 @@
   "format_version": "1.20.30",
   "minecraft:attachable": {
     "description": {
-      "identifier": "item:anchor_hook",
+      "identifier": "demo:anchor_hook",
       "item": {
-        "item:anchor_hook": "query.is_owner_identifier_any('minecraft:player')"
+        "demo:anchor_hook": "query.is_owner_identifier_any('minecraft:player')"
       },
       "materials": {
         "default": "entity",
