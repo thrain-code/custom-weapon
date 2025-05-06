@@ -16,8 +16,8 @@
         "default": "geometry.anchor_hook"
       },
       "animations": {
-        "hold_first_person": "animation.steve_head.hold_first_person",
-        "hold_third_person": "animation.steve_head.hold_third_person"
+        "hold_first_person": "animation.trident.wield_first_person",
+        "hold_third_person": "animation.trident.wield_third_person"
       },
       "scripts": {
         "animate": [
