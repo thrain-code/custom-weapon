@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "demo:anchor_hook"
+    },
+
+    
+    "tags": [ "anchor_hook" ],
+    "pattern": [
+      "XXX",
+      " # ",
+      "X#X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "demo:anchor_hook",
+      "count": 1
+    }
+  }
+}

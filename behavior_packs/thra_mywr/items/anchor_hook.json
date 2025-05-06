@@ -22,6 +22,23 @@
           "max": 50
         },
         "max_durability": 360
+      },
+      "minecraft:projectile": {
+        "minimum_critical_power": 1.25,
+        "projectile_entity": "anchor_hook"
+      },
+      "minecraft:shooter": {
+        "ammunition": [
+          {
+            "item": "anchor_hook",
+            "use_offhand": true,
+            "search_inventory": true,
+            "use_in_creative": true
+          }
+        ],
+        "max_draw_duration": 1,
+        "scale_power_by_draw_duration": true,
+        "charge_on_draw": false
       }
     }
   }
