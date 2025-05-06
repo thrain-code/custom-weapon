@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "custom weapon",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "anchor_hook_ico": {
-      "textures": "textures/items/anchor_hook_ico"
-    }
-  }
-}

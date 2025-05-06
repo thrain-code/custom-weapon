@@ -2,8 +2,10 @@
   "format_version": "1.20.30",
   "minecraft:attachable": {
     "description": {
-      "identifier": "items:anchor_hook",
-      "item": { "custom:anchor_hook": "query.is_owner_identifier_any('minecraft:player')" },
+      "identifier": "item:anchor_hook",
+      "item": {
+        "item:anchor_hook": "query.is_owner_identifier_any('minecraft:player')"
+      },
       "materials": {
         "default": "entity",
         "enchanted": "entity_alphatest_glint"
@@ -16,8 +18,8 @@
         "default": "geometry.anchor_hook"
       },
       "animations": {
-        "hold_first_person": "animation.trident.wield_first_person",
-        "hold_third_person": "animation.trident.wield_third_person"
+        "hold_first_person": "animation.steve_head.hold_first_person",
+        "hold_third_person": "animation.steve_head.hold_third_person"
       },
       "scripts": {
         "animate": [
@@ -29,7 +31,9 @@
           }
         ]
       },
-      "render_controllers": ["controller.render.item_default"]
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
     }
   }
 }
