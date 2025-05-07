@@ -1,23 +1,24 @@
 {
-  "format_version": "1.20.10",
+  "format_version": "1.17.0",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "demo:anchor_hook"
+      "identifier": "demo:anchor_hook"
     },
-
-    
-    "tags": [ "anchor_hook" ],
+    "tags": ["crafting_table"],
     "pattern": [
-      "XXX",
-      " # ",
-      "X#X"
+      " I ",
+      "IDI",
+      " C "
     ],
     "key": {
-      "#": {
-        "item": "minecraft:stick"
-      },
-      "X": {
+      "I": {
         "item": "minecraft:iron_ingot"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "C": {
+        "item": "minecraft:chain"
       }
     },
     "result": {

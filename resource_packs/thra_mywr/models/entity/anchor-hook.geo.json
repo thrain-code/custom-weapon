@@ -7,14 +7,14 @@
 				"texture_width": 128,
 				"texture_height": 128,
 				"visible_bounds_width": 4,
-				"visible_bounds_height": 4.5,
-				"visible_bounds_offset": [0, 1.75, 0]
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
 			"bones": [
 				{
 					"name": "anchor",
 					"pivot": [0, 24, 0],
-					"rotation": [75, 175, -12.5],
+					"rotation": [74.8968, 9.69081, -166.21545],
 					"binding": "q.item_slot_to_bone_name(context.item_slot)",
 					"cubes": [
 						{"origin": [-1, 1, -1], "size": [2, 37, 2], "uv": [36, 22]}
