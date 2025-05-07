@@ -22,18 +22,6 @@
           "max": 50
         },
         "max_durability": 360
-      },
-      "minecraft:projectile": {
-        "minimum_critical_power": 1.25,
-        "projectile_entity": "thrown:anchor_hook"
-      },
-      "minecraft:throwable": {
-        "do_swing_animation": true,
-        "min_draw_duration": 2,
-        "max_draw_duration": 5,
-        "launch_power_scale": 7,
-        "max_launch_power": 8,
-        "scale_power_by_draw_duration": true
       }
     }
   }
