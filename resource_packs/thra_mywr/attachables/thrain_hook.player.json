@@ -18,13 +18,20 @@
         "default": "geometry.anchor_hook"
       },
       "animations": {
-        "hold_first_person": "animation.steve_head.hold_first_person",
-        "hold_third_person": "animation.steve_head.hold_third_person"
+        "wield": "controller.animation.anchor.wield",
+        "wield_first_person": "animation.anchor.wield_first_person",
+        "wield_first_person_raise": "animation.anchor.wield_first_person_raise",
+        "wield_first_person_raise_shake": "animation.anchor.wield_first_person_raise_shake",
+        "wield_first_person_riptide": "animation.anchor.wield_first_person_riptide",
+        "wield_third_person": "animation.anchor.wield_third_person",
+        "wield_third_person_raise": "animation.anchor.wield_third_person_raise"
       },
       "scripts": {
+        "pre_animation": [
+          "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 10.0, 0.0, 1.0f);"
+        ],
         "animate": [
-          { "hold_first_person": "context.is_first_person == 1.0" },
-          { "hold_third_person": "context.is_third_person == 2.0" }
+          "wield"
         ]
       },
       "render_controllers": ["controller.render.item_default"]
